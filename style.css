@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Source+Sans+3:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -54,10 +54,15 @@ font-family: sans-serif;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin-top: 18px;
+    margin-top: 15px;
     color: white;
     padding: 5px;
-    font-size: 17px;
+    font-size: 19px;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+.accprofile img{
+    margin-top: 2px;
 }
 .leftcontainer{
     background: rgb(255, 255, 255);
@@ -67,9 +72,11 @@ font-family: sans-serif;
     flex-direction: column;
 }
 .rightcontainer{
-    background: rgb(241, 241, 241);
+    background: rgb(235, 235, 235);
     width: 84vw;
     height: 100vh;
+    font-family: 'Source Sans 3', sans-serif;
+
 
 }
 .container{
@@ -80,8 +87,10 @@ font-family: sans-serif;
     text-decoration: none;
     color: black;
     padding: 22px;
-    font-weight:900;
-    font-size:medium;
+    font-weight:500;
+    font-size:22px;
+    font-family: 'Source Sans 3', sans-serif;
+
 }
 .leftcontainer a:hover{
    background: rgb(236, 236, 236);
@@ -98,15 +107,15 @@ font-family: sans-serif;
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.8);
     font-size: 29px;
     font-weight: bold;
-    font-family:monospace;
+    font-family: 'Source Sans 3', sans-serif;
 
 
  }
  .coursetitle{
     background-color: rgb(255, 198, 84);
-    padding: 25px;
+    padding: 18px;
     margin: 15px;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
     font-size: 28px;
     font-weight:300;
     display: flex;
@@ -123,7 +132,7 @@ label {
 
 select {
     width: 600px;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 5px;
     font-size: 20px;
@@ -135,6 +144,36 @@ option {
     padding: 8px;
 }
 .courseheading{
-    margin-top: 13px;
+    margin-top: 6px;
     color: rgb(71, 71, 71);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 23px;
+    background: white;
+    color: rgb(94, 94, 94);
+}
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 10px;
+    text-align:start;
+}
+.tablecontainer{
+    margin: 20px;
+}
+.avail{
+    color: rgb(255, 81, 81);
+    margin-top: 17px;
+    margin-left: 30px;
+}
+.owner{
+    margin-top:9.4%;
+    background: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
