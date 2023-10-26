@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Source+Sans+3:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: rgb(103, 44, 170);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 6px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.8);
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+.Uniname {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.hamburger {
+  margin-top: 25px;
+  margin-left: 22px;
+}
+.title {
+  color: white;
+  margin-top: 18px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.timebtn {
+  color: white;
+  background-color: rgb(13, 111, 13);
+  border-radius: 15%;
+  font-size: 18px;
+  padding: 5px;
+  width: 8vw;
+  margin-top: 15px;
+  border: 1px solid black;
+}
+.accprofile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+  color: white;
+  padding: 5px;
+  font-size: 19px;
+  font-family: "Source Sans 3", sans-serif;
+}
+.accprofile img {
+  margin-top: 2px;
+}
+.leftcontainer {
+  background: rgb(255, 255, 255);
+  width: 16vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.rightcontainer {
+  background: rgb(235, 235, 235);
+  width: 84vw;
+  height: 100vh;
+  font-family: "Source Sans 3", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.leftcontainer a {
+  text-decoration: none;
+  color: black;
+  padding: 22px;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Source Sans 3", sans-serif;
+}
+.leftcontainer a:hover {
+  background: rgb(236, 236, 236);
+}
+.leftcontainer a.active {
+  background: rgb(134, 135, 224);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0.2, 0.2, 0.2, 0.5);
+}
+.dashboard {
+  background-color: rgb(209, 209, 209);
+  padding: 18px;
+  margin: 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.8);
+  font-size: 29px;
+  font-weight: bold;
+  font-family: "Source Sans 3", sans-serif;
+}
+.coursetitle {
+  background-color: rgb(255, 198, 84);
+  padding: 18px;
+  margin: 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.5);
+  font-size: 28px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+label {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+}
+
+select {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 5px;
+  font-size: 20px;
+  color: rgb(96, 96, 96);
+}
+
+option {
+  font-size: 20px;
+  padding: 8px;
+}
+.courseheading {
+  margin-top: 6px;
+  color: rgb(71, 71, 71);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 23px;
+  background: white;
+  color: rgb(94, 94, 94);
+}
+table,
+th,
+td {
+  border: none;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: start;
+}
+.tablecontainer {
+  margin: 20px;
+}
+.avail {
+  background: rgb(188, 174, 218);
+}
+.owner {
+  background: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+
+}
+.low-cont1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+}
+.low-cont2{
+    background: white;
+display: flex;
+justify-content: space-around;
+    padding: 10px;
+}
+.b1{
+    color: white;
+    background: rgb(86, 173, 255);
+    padding: 6px;
+    border-radius: 6%;
+    font-weight: bold;
+border: none;
+}
+.b2{
+    color: white;
+    background: rgb(255, 166, 0);
+    padding: 6px;
+    border-radius: 6%;
+    font-weight: bold;
+border: none; 
+}
